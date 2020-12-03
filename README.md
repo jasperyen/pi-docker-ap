@@ -25,6 +25,7 @@ Run a Script as a Service: https://gist.github.com/emxsys/a507f3cad928e66f6410e7
 # Install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+sudo usermod -aG docker $(whoami)
 
 # Download script
 git clone https://github.com/jasperyen/pi-docker-ap.git ~/.startap

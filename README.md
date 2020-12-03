@@ -63,4 +63,4 @@ sudo systemctl start startap.service
 1. 執行 get-docker.sh 可能需要跳板, 安裝過程有可能會失敗, 可以試著重啟解決
 
 2. 建議設定 /etc/wpa_supplicant/wpa_supplicant-wlan0.conf 讓 wlan0 自動連上wifi<br>
-如果設定 /etc/wpa_supplicant/wpa_supplicant.conf 會讓所有的無線網卡自動連上 wifi, 這樣的話 docker 啟動就會失敗, 因為沒辦法時連接 wifi 又開熱點
+如果設定 /etc/wpa_supplicant/wpa_supplicant.conf 會讓所有的無線網卡自動連上 wifi, 這樣的話 docker 啟動就會失敗, 因為沒辦法同時連接 wifi 又開熱點

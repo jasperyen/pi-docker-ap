@@ -58,7 +58,7 @@ def start_docker(cfg: dict, logger: logging.Logger):
 
 
 def main():
-    # time.sleep(10)
+    time.sleep(10)
 
     args = parse_args()
 

@@ -21,14 +21,14 @@ Run a Script as a Service: https://gist.github.com/emxsys/a507f3cad928e66f6410e7
 
 ```
 
-# install docker
+# Install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
-# download script
+# Download script
 git clone https://github.com/jasperyen/pi-docker-ap.git ~/.startap
 
-# install requirement for root
+# Install requirement for root
 cd ~/.startap
 sudo python3 -m pip install -r requirement.txt
 

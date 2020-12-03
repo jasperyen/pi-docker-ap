@@ -17,7 +17,7 @@ Docker hostap server: https://github.com/sdelrio/rpi-hostap
 Run a Script as a Service: https://gist.github.com/emxsys/a507f3cad928e66f6410e7ac28e2990f
 
 
-## Requirement
+## Install
 
 ```
 

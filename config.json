@@ -1,0 +1,18 @@
+{
+    "image":"sdelrio/rpi-hostap",
+    "kwargs":{
+        "name":"wifi-hostap",
+        "remove":true,
+        "auto_remove":true,
+        "privileged":true,
+        "network_mode":"host",
+        "environment":{
+            "INTERFACE":"wlan1",
+            "CHANNEL": "6",
+            "SSID": "pi-ap",
+            "AP_ADDR": "192.168.254.1",
+            "SUBNET": "192.168.254.0",
+            "WPA_PASSPHRASE": "raspberry"
+        }
+    }
+}

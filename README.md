@@ -6,6 +6,7 @@
 interface: wlan1
 ssid: pi-ap_<MAC末四碼>
 password: raspberry
+ip: 192.168.254.1
 ```
 
 ## Reference
